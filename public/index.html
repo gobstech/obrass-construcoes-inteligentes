@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Obrass - Construções inteligentes - Login</title>
+  <title>Obrass: Construções inteligentes - Login</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/all.min.css" />
   <link rel="stylesheet" href="css/style.css">
@@ -12,25 +12,27 @@
 
 <body>
   <div class="principal" id="principal">
-    <div class="banner-logo" id="banner-logo">
+    <div class="orange-logo" id="orange-logo">
       <img src="img/logo-obras.png" alt="Logo Obrass - Construções inteligentes">
     </div>
     <div class="tela-login" id="tela-login">
-      <h1 id="titulo">Faça login em sua conta</h1>
-      <div class="campos">
-        <div class="email">
-          <i class="fa-solid fa-user"></i>
-          <input type="email" name="email" id="email" placeholder="E-mail">
+      <div class="conteudo" id="conteudo">
+        <h1 id="titulo">Faça login em sua conta</h1>
+        <div class="campos">
+          <div class="email">
+            <i class="fa-solid fa-user"></i>
+            <input type="email" name="email" id="email" placeholder="E-mail" required>
+          </div>
+          <div class="senha">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" name="senha" id="senha" placeholder="Senha" required>
+            <i class="fa-solid fa-eye olhar"></i>
+          </div>
+          <div class="esqueci-senha" id="esqueci-senha">
+            <a href="senha/index.html">Esqueci minha senha</a>
+          </div>
+          <button class="btn-entrar" id="btn-entrar">Entrar <i class="fa-solid fa-arrow-right"></i></button>
         </div>
-        <div class="senha">
-          <i class="fa-solid fa-lock"></i>
-          <input type="password" name="senha" id="senha" placeholder="Senha">
-          <i class="fa-solid fa-eye"></i>
-        </div>
-        <div class="esqueci-senha" id="esqueci-senha">
-          <a href="#">Esqueci minha senha</a>
-        </div>
-        <button class="btn-entrar" id="btn-entrar">Entrar <i class="fa-solid fa-arrow-right"></i></button>
       </div>
     </div>
   </div>

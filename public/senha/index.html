@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Obrass - Construções inteligentes - Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../css/all.min.css" />
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <div class="principal" id="principal">
+    <div class="orange-logo" id="orange-logo">
+      <img src="../img/logo-obras.png" alt="Logo Obrass - Construções inteligentes">
+    </div>
+    <div class="tela-senha" id="tela-senha">
+      <div class="conteudo" id="conteudo">
+        <div class="titulo-descricao" id="titulo-descricao">
+          <h1 id="titulo"><a href="../index.html" class="voltar" id="voltar"><i class="fa-solid fa-arrow-left" title="Voltar à tela de Login"></i></a> Altere sua senha</h1>
+          <p>Realize a alteração de sua senha atual</p>
+        </div>
+        <div class="campos">
+          <div class="email">
+            <input type="email" name="email" id="email" placeholder="E-mail">
+          </div>
+          <div class="senha">
+            <input type="password" name="senha" id="senha" placeholder="Nova senha">
+            <i class="fa-solid fa-eye olhar"></i>
+          </div>
+          <div class="senha">
+            <input type="password" name="senha" id="novaSenha" placeholder="Confirmar senha">
+            <i class="fa-solid fa-eye olhar"></i>
+          </div>
+          <p>A sua nova senha deverá atender aos seguintes requisitos:</p>
+          <ul>
+            <li>Conter de 6 a 15 caracteres;</li>
+            <li>Conter letras e números;</li>
+            <li>Ser diferente das últimas três cadastradas;</li>
+            <li>Não conter parte do e-mail ou documento cadastrado.</li>
+          </ul>
+          <button class="btn-definir" id="btn-definir">Definir nova senha <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
