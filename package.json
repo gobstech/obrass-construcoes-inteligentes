@@ -1,0 +1,20 @@
+{
+  "name": "projeto-obrass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gobstech/obrass-construcoes-inteligentes.git"
+  },
+  "keywords": [],
+  "author": "Gabriel de Oliveira Baptista",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gobstech/obrass-construcoes-inteligentes/issues"
+  },
+  "homepage": "https://github.com/gobstech/obrass-construcoes-inteligentes#readme",
+  "description": "Construção do projeto de site/sistema web Obrass - Construções inteligentes"
+}
