@@ -90,7 +90,7 @@ input#email:hover, input#senha:hover, input#novaSenha:hover {
   width: 150px;
   border: none;
   background-color: #EB651E;
-  padding: 20px;
+  padding: 10px;
   color: white;
   border-radius: 80px;
   cursor: pointer;
