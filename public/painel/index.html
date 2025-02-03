@@ -11,12 +11,43 @@
 </head>
 
 <body>
-  <div class="sidebar-fixa">
-    <i class="fa-solid fa-check-double"></i><a href="#">Entregas Pontuais</a>
-    <i class="fa-solid fa-clock-rotate-left"></i><a href="#">Entregas recorrentes</a>
-    <i class="fa-regular fa-calendar"></i><a href="#">Calendário</a>
-    <i class="fa-solid fa-folder-open"></i><a href="#">Documentos</a>
+  <div class="sidebar-fixa" id="sidebar-fixa">
+    <span class="btn-menu" id="btn-menu">
+      <span class="traco" id="traco"></span>
+    </span>
+    <span class="item"><a href="#"><i class="fa-solid fa-check-double"></i> <span class="frase" id="frase">Entregas pontuais</span></a></span>
+    <span class="item"><a href="#"><i class="fa-solid fa-clock-rotate-left"></i> <span class="frase" id="frase">Entregas recorrentes</span></a></span>
+    <span class="item"><a href="#"><i class="fa-regular fa-calendar"></i> <span class="frase" id="frase">Calendário</span></a></span>
+    <div class="item"><a href="#"><i class=" fa-solid fa-folder-open"></i> <span class="frase" id="frase">Documentos</span></a></div>
   </div>
+
+  <div class="main" id="main">
+    <div class="navbar" id="navbar">
+      <div class="logo" id="logo">
+        <img src="../img/logo-painel.png" alt="Logo painel">
+      </div>
+      <div class="mini-menu" id="mini-menu">
+        <a href=""><span class="tarefas">Tarefas <span class="number" id="number">10</span></span></a>
+        <a href=""><span class="atendimento">Atendimento</span></a>
+        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        <span class="nome-usuario" id="nome-usuario">Olá, nome do usuário</span>
+        <span class="descer" id="descer"><i class="fa-solid fa-arrow-down-long seta"></i>
+        </span>
+        <div class="menu-dropdown">
+          <ul class="lista-dropdown">
+            <li><a href="#" class="link-drop">Meus atendimentos</a></li>
+            <li><a href="#" class="link-drop">Alterar senha</a></li>
+            <li><a href="#" class="link-drop">Termos de uso</a></li>
+            <hr class="linha-laranja" id="linha-laranja">
+            <li><a href="#" class="link-drop">Sair</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="painel.js"></script>
+
 </body>
 
 </html>

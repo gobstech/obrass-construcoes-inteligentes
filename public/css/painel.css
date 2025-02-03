@@ -1,0 +1,176 @@
+.sidebar-fixa {
+  padding: 20px 10px;
+  height: 100vh;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-color: #EB651E;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+} 
+
+.sidebar-fixa .item {
+  color: white;
+  margin: 5px 0px;
+  text-decoration: none;
+  font-size: 28px;
+  padding: .5rem;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  /* border-bottom: 2px solid rgba(255, 255, 255, .6); */
+}
+
+.item a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 0 .5rem;
+}
+
+.btn-menu {
+  display: flex;
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.frase {
+  display: none;
+}
+
+.frase.ativo {
+  display: inline;
+}
+
+.traco {
+  border-top: 3px solid;
+  width: 16px;
+  color: white;
+}
+
+.traco::before, .traco::after {
+  content: " ";
+  display: block;
+  height: 3px;
+  width: 16px;
+  background-color: white;
+  margin-top: 5px;
+  transition: .3s;
+  position: relative;
+}
+
+.main {
+  padding: 0px 10px;
+  margin-left: 60px;
+}
+
+.seta {
+  background-color: #EB651E;
+  color: white;
+  padding: .5rem;
+  cursor: pointer;
+}
+
+.navbar {
+  background-color: white;
+  display: flex;
+  height: 50px;
+  /* border: 1px solid black; */
+  padding: 10px 20px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px .5px .5px 0px #888888;
+}
+
+.mini-menu {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.mini-menu a {
+  text-decoration: none;
+}
+
+.tarefas, .atendimento {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  border: .5px solid black;
+  text-align: center;
+  border-radius: 20px;
+  color: black;
+  gap: .5rem;
+  font-size: 12px;
+}
+
+.tarefas {
+  padding: 7px;
+}
+
+.atendimento {
+  padding: 10px;
+}
+
+.number {
+  background-color: red;
+  color: white;
+  border-radius: 50px;
+  padding: 3px;
+}
+
+.fa-whatsapp {
+  font-size: 32px;
+  color: #3EBD4E;
+}
+
+.menu-dropdown {
+  display: none;
+}
+
+.menu-dropdown.ativo {
+  text-align: center;
+  display: block;
+  position: absolute;
+  padding: 10px;
+  right: 10px;
+  top: 72px;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: white;
+  /* border: 1px solid black; */
+  box-shadow: 0px .5px 0px .5px #888888;
+  /* display: none; */
+}
+
+.lista-dropdown {
+  list-style-type: none;
+  text-align: left;
+  padding: .5rem;
+}
+
+.link-drop {
+  color: black;
+}
+
+.link-drop:hover {
+  color: #EB651E;
+  text-decoration: underline;
+}
+
+.linha-laranja {
+  border: .1px solid #EB651E;
+  width: 100%;
+}
+
+

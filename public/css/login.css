@@ -74,19 +74,20 @@ input#email:hover, input#senha:hover, input#novaSenha:hover {
 
 .olhar {
   cursor: pointer;
-  color: #BFDBF9;
+  color: #346284;
 }
 
 .esqueci-senha a {
+  font-size: 12px;
   color: #ADB3B3;
-  margin: 10px 18px;
+  margin: 10px 0px;
 }
 
 #btn-entrar {
   display: flex;
   justify-content: space-between;
   text-align: center;
-  margin: 10px 18px;
+  margin: 20px 0px;
   width: 150px;
   border: none;
   background-color: #EB651E;
@@ -127,7 +128,7 @@ input#email:hover, input#senha:hover, input#novaSenha:hover {
   }
   
   input#email, input#senha, input#novaSenha {
-    width: 200px;
+    width: 0px;
     height: 20px;
   }
 
