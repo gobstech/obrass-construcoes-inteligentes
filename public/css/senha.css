@@ -1,5 +1,3 @@
-
-
 .conteudo {
   margin: 0 20px;
 }
@@ -31,6 +29,21 @@ li {
   margin: 10px 0px;
 }
 
+input#senhaAtual, input#novaSenha1, input#novaSenha2 {
+  border: none;
+  border-bottom: .05rem solid rgba(0, 0, 0, 0.1);
+  margin: 10px 0px;
+  padding: 5px;
+  width: 300px;
+  height: 30px;
+}
+
+input#senhaAtual:hover, input#novaSenha1:hover, input#novaSenha2:hover {
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.4s;
+}
+
 #btn-definir {
   display: flex;
   justify-content: space-between;
@@ -46,7 +59,7 @@ li {
   cursor: pointer;
 }
 
-.olhar1, .olhar2 {
+.olhar1, .olhar2, .olhar3 {
   cursor: pointer;
   color: #346284;
 }
@@ -92,6 +105,11 @@ li {
   }
   
   input#senha, input#novaSenha {
+    width: 240px;
+    height: 20px;
+  }
+
+  input#senhaAtual, input#novaSenha1, input#novaSenha2 {
     width: 240px;
     height: 20px;
   }

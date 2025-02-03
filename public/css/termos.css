@@ -1,0 +1,36 @@
+body.pagina-termos {
+  background-color: #f7f7f7;
+}
+
+.termos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  gap: 1.5rem;
+  padding: 10px 0px;
+}
+
+.titulo-termos {
+  margin: 10px 20px 0px 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.termos span {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+#lista-termos-id {
+  margin: 10px 20px;
+  padding: 0px 20px;
+  list-style: decimal;
+}
+
+#lista-termos-id li {
+  line-height: 1.5rem;
+  font-size: 12px;
+}
