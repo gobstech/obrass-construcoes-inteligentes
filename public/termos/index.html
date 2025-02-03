@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="../css/all.min.css" />
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <div class="sidebar-fixa" id="sidebar-fixa">
+    <span class="btn-menu" id="btn-menu">
+      <span class="traco" id="traco"></span>
+    </span>
+    <span class="item"><a href="#"><i class="fa-solid fa-check-double"></i> <span class="frase" id="frase">Entregas pontuais</span></a></span>
+    <span class="item"><a href="#"><i class="fa-solid fa-clock-rotate-left"></i> <span class="frase" id="frase">Entregas recorrentes</span></a></span>
+    <span class="item"><a href="#"><i class="fa-regular fa-calendar"></i> <span class="frase" id="frase">Calendário</span></a></span>
+    <div class="item"><a href="#"><i class=" fa-solid fa-folder-open"></i> <span class="frase" id="frase">Documentos</span></a></div>
+  </div>
+
+  <div class="main" id="main">
+    <div class="navbar" id="navbar">
+      <div class="logo" id="logo">
+        <a href="../painel/index.html"><img src="../img/logo-painel.png" alt="Logo painel"></a>
+      </div>
+      <div class="mini-menu" id="mini-menu">
+        <a href="#"><span class="tarefas">Tarefas <span class="number" id="number">10</span></span></a>
+        <a href=""><span class="atendimento">Atendimento</span></a>
+        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        <span class="nome-usuario" id="nome-usuario">Olá, Fulano de Tal</span>
+        <span class="descer" id="descer"><i class="fa-solid fa-arrow-down-long seta"></i>
+        </span>
+        <div class="menu-dropdown">
+          <ul class="lista-dropdown">
+            <li><a href="../atendimento/" class="link-drop">Meus atendimentos</a></li>
+            <li><a href="../senha/alterar-senha.html" class="link-drop">Alterar senha</a></li>
+            <li><a href="../termos/" class="link-drop">Termos de uso</a></li>
+            <hr class="linha-laranja" id="linha-laranja">
+            <li><a href="../index.html" class="link-drop">Sair</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="conteudo-main-painel" id="conteudo-main-painel">
+
+    </div>
+
+    <script src="../js/painel.js"></script>
+
+</body>
+
+</html>

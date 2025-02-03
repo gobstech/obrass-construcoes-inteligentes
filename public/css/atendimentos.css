@@ -1,0 +1,139 @@
+.atendimentos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  gap: 1.5rem;
+  padding: 10px 20px;
+}
+
+.titulo-atendimentos {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.atendimentos span {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icone-video {
+  font-size: 20px;
+  margin: 0px 5px;
+}
+
+.barra-pesquisa {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 10px 20px;
+}
+
+#busca-input {
+  border: none;
+  border-bottom: 1px solid black;
+  width: 1150px;
+  height: 35px;
+  font-size: 12px;
+}
+
+.btn-buscar button {
+  border: none;
+  width: 60px;
+  text-align: center;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #EB651E;
+  color: white;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.tabela-atendimentos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin: 0px 20px;
+  padding: 20px;
+}
+
+.titulos-atendimentos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10rem;
+}
+
+.atendimento-tabela {
+  padding: 5px 0px;
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 7.5rem;
+  border-bottom: 2px solid rgba(0, 0, 0, .3);
+}
+
+.solicitacao, .data-tabela, .assunto, .status {
+  text-align: center;
+}
+
+.barra-invisivel-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0px;
+  padding: 0px 20px;
+}
+
+.btn-numeros, .btn-setas {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5rem;
+}
+
+.n-left, .n-right {
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+  color: #EB651E;
+  cursor: pointer;
+}
+
+.n-left:hover, .n-right:hover {
+  background-color: #EB651E;
+  color: white;
+}
+
+.n-left.ativo {
+  background-color: #EB651E;
+  color: white;
+}
+
+.link-novo button {
+  background-color: #EB651E;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.link-novo button:hover {
+  background-color: white;
+  color: #EB651E;
+}

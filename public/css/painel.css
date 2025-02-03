@@ -93,7 +93,6 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0px .5px .5px 0px #888888;
 }
 
 .mini-menu {
@@ -139,6 +138,10 @@ body {
   color: #3EBD4E;
 }
 
+.nome-usuario {
+  font-size: 12px;
+}
+
 .menu-dropdown {
   display: none;
 }
@@ -153,6 +156,7 @@ body {
   flex-direction: column;
   align-items: flex-start;
   background-color: white;
+  font-size: 12px;
 }
 
 .lista-dropdown {
@@ -205,6 +209,7 @@ div.ia, div.pesquisa-ia {
 }
 
 .introducao-ia span {
+  font-size: 12px;
   margin: 5px 0;
 }
 
@@ -222,14 +227,14 @@ div.pesquisa-ia {
   padding: 0px;
   width: 650px;
   height: 40px;
-  font-size: 20px;
+  font-size: 12px;
   border: none;
   background-color: #f7f7f7;
   border-bottom: 1px solid #ADB3B3;
 }
 
 .lupa {
-  font-size: 20px;
+  font-size: 12px;
 }
 
 .tabelas-vídeo {
@@ -263,7 +268,7 @@ div.pesquisa-ia {
 
 .titulo-tabela {
   color: #EB651E;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   text-align: center;
 }
@@ -288,10 +293,12 @@ div.pesquisa-ia {
 
 .titulo-inf {
   font-weight: bold;
+  font-size: 16px;
 }
 
 .indice, .data, .var-mensal, .valor, .var-diaria, .ponto {
   margin: 10px 0px;
+  font-size: 12px;
 }
 
 .video {
@@ -304,6 +311,7 @@ div.pesquisa-ia {
 .play {
   color: #EB651E;
   font-size: 50px;
+  cursor: pointer;
 }
 
 .noticias-banner {
@@ -329,7 +337,7 @@ div.pesquisa-ia {
 
 .titulo-noticias h1 {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .noticias {
@@ -339,6 +347,7 @@ div.pesquisa-ia {
 
 .noticias a {
   color: white;
+  font-size: 12px;
   text-decoration: none;
 }
 
