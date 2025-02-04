@@ -5,6 +5,7 @@ body.pagina-termos {
 .termos {
   display: flex;
   flex-direction: row;
+  place-items: center;
   align-items: center;
   justify-content: left;
   gap: 1.5rem;
@@ -12,14 +13,15 @@ body.pagina-termos {
 }
 
 .titulo-termos {
-  margin: 10px 20px 0px 20px;
+  margin: 0px 20px;
   font-size: 20px;
   font-weight: bold;
 }
 
 .termos span {
-  font-size: 12px;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   cursor: pointer;
 }

@@ -15,7 +15,7 @@ function verificarEntrada() {
   const senhaTeste = 'teste';
 
   if (email.value == emailTeste && senha.value == senhaTeste) {
-    window.location.href = 'painel/index.html';
+    window.location.href = '../painel/index.html';
   } else {
     alert('Usuário e/ou senha inválidos');
     email.value = '';
